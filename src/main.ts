@@ -10,7 +10,7 @@ async function start() {
     .setTitle('название')
     .setDescription('Документация REST API')
     .setVersion('1.0.0')
-    .addTag('Tag')
+    .addTag('Tagg')
     .build()
   const document = SwaggerModule.createDocument(app, config)
   SwaggerModule.setup('api/docs', app, document)
