@@ -6,6 +6,7 @@ import { User } from './users/users.model';
 import { RolesModule } from './roles/roles.module';
 import { Role } from './roles/roles.model';
 import { UserRoles } from './roles/user-roles.model';
+import { AuthModule } from './auth/auth.module';
 
 
 //"start:dev": "cross-env NODE_ENV=development nest start --watch",
@@ -28,7 +29,9 @@ import { UserRoles } from './roles/user-roles.model';
     
     UsersModule,
     
-    RolesModule
+    RolesModule,
+    
+    AuthModule
   ],
    
 })
